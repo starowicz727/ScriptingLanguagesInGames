@@ -1,0 +1,27 @@
+{
+    "Tournaments": {
+        "Tournament1": {
+            "Players": {
+                "1": "Serge Aurier",
+                "2": "Frank Lampard",
+                "3": "Kai Havertz",
+                "4": "Maria"
+            },
+            "Current state": "Kai Havertz is winning."
+        },
+        "Tournament2": {
+            "Players": {
+                "1": "Roberto Carlos",
+                "2": "Joachim Andersen"
+            },
+            "Current state": "Roberto Carlos is winning"
+        },
+        "Tournament3": {
+            "Players": {
+                "1": "Tyler Adams",
+                "2": "Rio Ferdinand"
+            },
+            "Current state": "Tyler Adams is winning"
+        }
+    }
+}

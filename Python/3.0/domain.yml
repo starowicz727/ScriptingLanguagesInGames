@@ -1,0 +1,65 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_tournaments
+  - ask_all_data
+  - ask_player_add
+  - say_which_tournament
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+  - text: "Was that useful?"
+  - text: "Was that helpful?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Have a nice day!"
+  - text: "Bye for now"
+  - text: "Have a great day"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_show_tournaments:
+  - text: "I can't show you the data yet."
+
+  utter_anything_else:
+  - text: "Is there something else you need?"
+  - text: "Anything further I can assist with?"
+  - text: "Do you need anything else?"
+
+  utter_what_more:
+  - text: "What else can I do for you?"
+
+  utter_show_all_data:
+  - text: "I can't show you the data yet."
+
+  utter_which_tournament:
+  - text: "Which tournament do you want to join?"
+  - text: "Which tournament would you like to join?"
+  - text: "Which tournament are you considering joining?"
+
+  utter_adding_player:
+  - text: "I can't add you to the tournament yet."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

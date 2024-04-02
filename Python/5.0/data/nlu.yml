@@ -1,0 +1,116 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_tournaments
+  examples: |
+    - can you show me tournaments infromation?
+    - can you give me information on the tournaments?
+    - can you show me tournaments?
+    - I want to see current tournaments
+
+- intent: ask_all_data
+  examples: |
+    - can you show me the whole tournaments data?
+    - can you show me all tournaments data?
+    - can you give me the whole data?
+
+- intent: ask_player_add
+  examples: |
+    - can you add me to a tournament?
+    - could you enroll me in a tournament?
+    - can you sign me up for a tournament?
+
+- intent: say_which_tournament
+  examples: |
+    - I am [Maria](player_name) and I want to join [Tournament1](tournament)
+    - I am [Julia](player_name) and I want to join [Tournament2](tournament)
+    - I am [Olivia](player_name) and I want to join [Tournament3](tournament)

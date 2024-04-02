@@ -1,0 +1,77 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: show tournaments
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_tournaments
+  - action: utter_show_tournaments
+  - action: utter_anything_else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: show all data
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_tournaments
+  - action: utter_show_tournaments
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_what_more
+  - intent: ask_all_data
+  - action: utter_show_all_data
+  - action: utter_anything_else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: show all data and add player
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_tournaments
+  - action: utter_show_tournaments
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_what_more
+  - intent: ask_all_data
+  - action: utter_show_all_data
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_what_more
+  - intent: ask_player_add
+  - action: utter_which_tournament
+  - intent: say_which_tournament 
+  - action: utter_adding_player
+  - action: utter_anything_else
+  - intent: deny
+  - action: utter_goodbye
