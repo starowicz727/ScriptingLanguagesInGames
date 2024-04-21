@@ -24,3 +24,16 @@ Kod: (ScriptingLanguagesInGames/TicTacToe)
 
 Kod: (ScriptingLanguagesInGames/Python)
  
+**Zadanie 3** JS: Zamek w Minecraft
+
+:white_check_mark: 3.0 wymaganie 1 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/blob/main/JS/castle3.0.js)
+
+:white_check_mark: 3.5 wymaganie 2 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/blob/main/JS/castle3.5.js)
+
+:white_check_mark: 4.0 wymaganie 3 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/blob/main/JS/castle4.0.js)
+
+:white_check_mark: 4.5 wymaganie 4 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/blob/main/JS/castle4.5.js)
+
+:white_check_mark: 5.0 wymaganie 5 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/blob/main/JS/castle5.0.js)
+
+Kod: (ScriptingLanguagesInGames/JS)
