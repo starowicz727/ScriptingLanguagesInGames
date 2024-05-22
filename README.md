@@ -37,3 +37,15 @@ Kod: (ScriptingLanguagesInGames/Python)
 :white_check_mark: 5.0 wymaganie 5 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/blob/main/JS/castle5.0.js)
 
 Kod: (ScriptingLanguagesInGames/JS)
+
+**Zadanie 4** Tetris w Lua
+
+:white_check_mark: 3.0 wymaganie 1 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/tree/main/Tetris/3.0)
+
+:white_check_mark: 3.5 wymaganie 2 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/tree/main/Tetris/3.5)
+
+:white_check_mark: 4.0 wymaganie 3 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/tree/main/Tetris/4.0)
+
+:white_check_mark: 4.5 wymaganie 4 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/tree/main/Tetris/4.5)
+
+Kod: (ScriptingLanguagesInGames/Tetris)
