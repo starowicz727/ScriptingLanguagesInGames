@@ -49,3 +49,15 @@ Kod: (ScriptingLanguagesInGames/JS)
 :white_check_mark: 4.5 wymaganie 4 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/tree/main/Tetris/4.5)
 
 Kod: (ScriptingLanguagesInGames/Tetris)
+
+**Zadanie 5** Mario w Ruby2d
+
+:white_check_mark: 3.0 wymaganie 1 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/tree/main/Mario/3.0)
+
+:white_check_mark: 3.5 wymaganie 2 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/tree/main/Mario/3.5)
+
+:white_check_mark: 4.0 wymaganie 3 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/tree/main/Mario/4.0)
+
+:white_check_mark: 4.5 wymaganie 4 [Link](https://github.com/starowicz727/ScriptingLanguagesInGames/tree/main/Mario/4.5)
+
+Kod: (ScriptingLanguagesInGames/Mario)
